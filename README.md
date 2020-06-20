@@ -1,6 +1,7 @@
 # 주요 기능
 1. docker-compose.yml 파일에 입력한 도메인의 SSL 인증서 자동 발급 및 갱신  
-2. `sudo docker-compose up -d` 명령어를 실행하는 즉시 docker-compose.yml 파일에 입력된 도메인으로 HTTPS 접속하면 pm2/src/app.js 프로그램의 결과를 받을 수 있다.  
+2. `sudo docker-compose up -d` 명령어를 실행하는 즉시 docker-compose.yml 파일에 입력된 도메인으로 HTTPS 접속을 하면 pm2/src/app.js 프로그램의 결과를 받을 수 있다.  
+3. pm2/src/app.js 프로그램은 컨테이너가 (재)시작할 때마다 PM2에 의해 관리되기 때문에 다운 상태로 유지되는 일은 거의 없다.  
   
 # 기본 사용법
 1. 호스트 80번 포트와 443번 포트 열기  
