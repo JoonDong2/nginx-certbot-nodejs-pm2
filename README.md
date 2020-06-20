@@ -12,7 +12,7 @@
 7. 프로젝트의 루트 경로에서 `sudo docker-compose up -d` 명령어 실행  
   
 # 상세 설명
-[https://joon-lab.com/164](https://joon-lab.com/164)  
+https://joon-lab.com/164  
   
 # 참조
 [staticfloat/docker-nginx-certbot](https://github.com/staticfloat/docker-nginx-certbot)  
