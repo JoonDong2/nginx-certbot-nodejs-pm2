@@ -15,4 +15,4 @@ http://joondong.tistoy.com/164
 [keymetrics/docker-pm2](https://github.com/keymetrics/docker-pm2)  
   
 # 라이센스
-복붙한 거라 라이센서라고 할 것까지도 없지만... MIT  
+복붙한 거라 라이센스라고 할 것까지도 없지만... MIT  
