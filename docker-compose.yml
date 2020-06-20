@@ -1,0 +1,20 @@
+version: '3'
+services:
+    proxy:
+        restart: unless-stopped
+        image: staticfloat/nginx-certbot
+        ports:
+            - 80:80/tcp
+            - 443:443/tcp
+        environment:
+            CERTBOT_EMAIL: <YOUR EMAIL>
+        volumes:
+          - ./conf.d:/etc/nginx/user.conf.d:ro
+          - letsencrypt:/etc/letsencrypt
+    pm2:
+        build:
+            context: .
+            dockerfile: ./pm2/Dockerfile
+        restart: unless-stopped
+volumes:
+    letsencrypt:

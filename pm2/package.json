@@ -1,0 +1,21 @@
+{
+  "name": "<PROJECT NAME>",
+  "version": "<VERSION>",
+  "description": "DESCRIPTION",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "xo&& bash ./test/test.sh"
+  },
+  "author": "<AUTHOR>",
+  "license": "MIT",
+  "dependencies": {
+    // 설치할 모듈 입력, 없으면 해당 주석 삭제
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true
+  }
+}
