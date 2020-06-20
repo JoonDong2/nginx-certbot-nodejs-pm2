@@ -17,6 +17,7 @@ http://joondong.tistoy.com/164
 # 참조
 [staticfloat/docker-nginx-certbot](https://github.com/staticfloat/docker-nginx-certbot)  
 [keymetrics/docker-pm2](https://github.com/keymetrics/docker-pm2)  
+동빈나님의 [도커(Docker) 활용 및 배포 자동화 실전 초급](https://www.youtube.com/watch?v=HbKCxBFT2wk&list=PLRx0vPvlEmdChjc6N3JnLaX-Gihh5pHcx)  
   
 # 라이센스
 복붙한 거라 라이센스라고 할 것까지도 없지만... MIT  
