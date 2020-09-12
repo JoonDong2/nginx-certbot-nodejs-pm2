@@ -8,6 +8,9 @@ services:
             - 443:443/tcp
         environment:
             CERTBOT_EMAIL: <YOUR EMAIL>
+            # variable names are space-separated
+            ENVSUBST_VARS: FQDN
+            FQDN: <YOUR DOMAIN>
         volumes:
           - ./conf.d:/etc/nginx/user.conf.d:ro
           - letsencrypt:/etc/letsencrypt

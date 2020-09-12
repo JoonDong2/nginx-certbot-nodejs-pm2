@@ -2,7 +2,7 @@
   "apps": [{
     "name": "<앱 이름>",
     "script": "src/app.js", // 실행할 파일
-    "instances": 0,
+    "instances": "max",
     "exec_mode": "cluster",
     "env": {
       "NODE_ENV": "development"
@@ -10,6 +10,7 @@
     },
     "env_production" : {
       "NODE_ENV": "production"
+      // 사용할 환경변수 입력, 없으면 해당 주석 삭제
     }
   }]
 }
